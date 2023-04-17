@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+
+.child{
+    background-color: #B2BEBF;
+    border: 1px solid black;
+    width: 50%;
+    height: auto;
+    margin: 0.5%;
+    text-align: center;
+    padding: 4%;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+body{
+    background-color: #BD2A2E;
+}
+.button{
+    width: auto;  
+    float: right;
+   
+    margin: 1%;
+}
+label{
+    display: inline-block;
+    width: 40%;
+}
+
+div#output{
+    text-align: justify;
+    background-color: #486966;
+}
+

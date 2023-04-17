@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Índice de Massa Corporal </h1>
+        <div class="child" id="input">
+            
+            <p>
+                <label for="Peso">Massa</label>
+                <input type="number" name="" id="peso" placeholder="Peso em Quilograma (Kg)">
+            </p>
+            <p>
+                <label for="Altura">Altura</label>
+                <input type="number" name="" id="altura" placeholder="Alutra em Metros (m)">
+            </p>
+            <p>
+                
+                <input type="button" class="button" value="Verificar" onclick="classificar()">
+            </p>
+        </div>
+
+        <div class="child" id="output">
+    
+                    Classificação: <br>
+                    IMC: 
+                
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
